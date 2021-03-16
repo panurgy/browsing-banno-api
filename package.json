@@ -1,0 +1,19 @@
+{
+  "name": "browsing-banno-api",
+  "version": "1.0.0",
+  "description": "Exploring Banno APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panurgy/browsing-banno-api.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/panurgy/browsing-banno-api/issues"
+  },
+  "homepage": "https://github.com/panurgy/browsing-banno-api#readme"
+}
