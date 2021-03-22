@@ -2,9 +2,10 @@
   "name": "browsing-banno-api",
   "version": "1.0.0",
   "description": "Exploring Banno APIs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/panurgy/browsing-banno-api/issues"
   },
-  "homepage": "https://github.com/panurgy/browsing-banno-api#readme"
+  "homepage": "https://github.com/panurgy/browsing-banno-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-config-airbnb-base": "^14.2.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
 }
